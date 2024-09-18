@@ -25,6 +25,14 @@ conda install "ffmpeg<5" -c conda-forge
 We use the pre-trained facebook/musicgen-small model of MusicGen.
 * [MusicGen](./docs/MUSICGEN.md): A state-of-the-art controllable text-to-music model.
 
+The trained encoder models are available at [embedding_models](https://drive.google.com/file/d/1MdIw2syjppTfsFrqM4_0tkf0mDylbH33/view?usp=sharing)
+
+## Prepare Dataset
+AIST++ dataset are available at [AIST++](https://google.github.io/aistplusplus_dataset/download.html)
+We provide the video links of our InDv dataset at [IndV](https://drive.google.com/file/d/1UlhzJ6a7Xox5ebTu74ZNb5jCK6yK2RwQ/view?usp=sharing)
+
+We segment the video data into 5.12-second clips. For the AIST++ dataset, we use the officially provided 2D keypoints and divide them into feature sequences of length 305. For the InDV dataset, we extract 2D keypoints using [mmpose](https://github.com/open-mmlab/mmpose) on the segmented videos, resulting in sequences of length 308.
+
 ## Train the model
 
 ```bash
@@ -41,15 +49,27 @@ python test.py
 * The code in this repository is released under the MIT license as found in the [LICENSE file](LICENSE).
 * The models weights in this repository are released under the CC-BY-NC 4.0 license as found in the [LICENSE_weights file](LICENSE_weights).
 
+## Cite this work
 
-## Reference
-We would like to thank the authors of this repo for their contribution.
-
-```
-@article{copet2023simple,
-    title={Simple and Controllable Music Generation},
-    author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},
-    year={2023},
-    journal={arXiv preprint arXiv:2306.05284},
+If you found this tool useful, please consider citing
+```bibtex
+@article{li2024dance,
+  title={Dance-to-music generation with encoder-based textual inversion of diffusion models},
+  author={Li, Sifei and Dong, Weiming and Zhang, Yuxin and Tang, Fan and Ma, Chongyang and Deussen, Oliver and Lee, Tong-Yee and Xu, Changsheng},
+  journal={arXiv preprint arXiv:2401.17800},
+  year={2024}
 }
 ```
+
+## Reference
+We would like to thank the authors of these repos for their contribution.
+
+[https://github.com/facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft)
+
+[https://github.com/riffusion/riffusion-hobby](https://github.com/riffusion/riffusion-hobby)
+
+[https://github.com/haoheliu/AudioLDM](https://github.com/haoheliu/AudioLDM)
+
+[https://github.com/open-mmlab/mmpose](https://github.com/open-mmlab/mmpose)
+
+
