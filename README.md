@@ -33,6 +33,15 @@ We provide the video links of our InDv dataset at [IndV](https://drive.google.co
 
 We segment the video data into 5.12-second clips. For the AIST++ dataset, we use the officially provided 2D keypoints and divide them into feature sequences of length 305. For the InDV dataset, we extract 2D keypoints using [mmpose](https://github.com/open-mmlab/mmpose) on the segmented videos, resulting in sequences of length 308.
 
+Get metadata for each audio.
+```bash
+python info.py
+```
+Get one-hot genre encoding
+```bash
+python genre.py
+```
+Put all data under the same folder.
 ## Train the model
 
 ```bash
