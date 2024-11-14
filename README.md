@@ -1,7 +1,7 @@
 # Dance-to-music_Siggraph_Aisa_2024
 The official code for [“Dance-to-Music Generation with Encoder-based Textual Inversion“](https://arxiv.org/abs/2401.17800)
 ![Teaser](./teaser.png)
-Demo are available at [Dance-to-music](https://youtu.be/y2pG2S5xDLY).
+Demo is available at [Dance-to-music](https://youtu.be/y2pG2S5xDLY).
 
 More results and comparisons with other methods are available at [Dance-to-music](https://lsfhuihuiff.github.io/dance2music.github.io/). 
 ## Installation
