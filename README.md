@@ -25,11 +25,13 @@ conda install "ffmpeg<5" -c conda-forge
 We use the pre-trained facebook/musicgen-small model of MusicGen.
 * [MusicGen](./docs/MUSICGEN.md): A state-of-the-art controllable text-to-music model.
 
-The trained encoder models are available at [embedding_models](https://drive.google.com/file/d/1MdIw2syjppTfsFrqM4_0tkf0mDylbH33/view?usp=sharing)
+The trained encoder model for MUSICGEN is available at [embedding_models](https://drive.google.com/file/d/1MdIw2syjppTfsFrqM4_0tkf0mDylbH33/view?usp=sharing)
+The trained encoder model for Riffusion is available at [embedding_Riffusion](https://drive.google.com/file/d/1d0E5DeDcWxP6DtPAu4rL7JiLoVcnKdrs/view?usp=sharing).
+
 
 ## Prepare Dataset
 AIST++ dataset are available at [AIST++](https://google.github.io/aistplusplus_dataset/download.html)
-We provide the video links of our InDv dataset at [IndV](https://drive.google.com/file/d/1UlhzJ6a7Xox5ebTu74ZNb5jCK6yK2RwQ/view?usp=sharing)
+We provide the video links of our InDv dataset at [IndV](https://drive.google.com/file/d/1d0E5DeDcWxP6DtPAu4rL7JiLoVcnKdrs/view?usp=sharing)
 
 We segment the video data into 5.12-second clips. For the AIST++ dataset, we use the officially provided 2D keypoints and divide them into feature sequences of length 305. For the InDV dataset, we extract 2D keypoints using [mmpose](https://github.com/open-mmlab/mmpose) on the segmented videos, resulting in sequences of length 308.
 
