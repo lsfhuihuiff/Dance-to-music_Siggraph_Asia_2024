@@ -26,6 +26,7 @@ We use the pre-trained facebook/musicgen-small model of MusicGen.
 * [MusicGen](./docs/MUSICGEN.md): A state-of-the-art controllable text-to-music model.
 
 The trained encoder model for MUSICGEN is available at [embedding_models](https://drive.google.com/file/d/1MdIw2syjppTfsFrqM4_0tkf0mDylbH33/view?usp=sharing)
+
 The trained encoder model for Riffusion is available at [embedding_Riffusion](https://drive.google.com/file/d/1d0E5DeDcWxP6DtPAu4rL7JiLoVcnKdrs/view?usp=sharing).
 
 
