@@ -32,7 +32,7 @@ The trained encoder model for Riffusion is available at [embedding_Riffusion](ht
 
 ## Prepare Dataset
 AIST++ dataset are available at [AIST++](https://google.github.io/aistplusplus_dataset/download.html)
-We provide the video links of our InDv dataset at [IndV](https://drive.google.com/file/d/1d0E5DeDcWxP6DtPAu4rL7JiLoVcnKdrs/view?usp=sharing)
+We provide the video links of our InDv dataset at [IndV](https://drive.google.com/file/d/1UlhzJ6a7Xox5ebTu74ZNb5jCK6yK2RwQ/view?usp=drive_link)
 
 We segment the video data into 5.12-second clips. For the AIST++ dataset, we use the officially provided 2D keypoints and divide them into feature sequences of length 305. For the InDV dataset, we extract 2D keypoints using [mmpose](https://github.com/open-mmlab/mmpose) on the segmented videos, resulting in sequences of length 308.
 
