@@ -65,10 +65,11 @@ python test.py
 
 If you found this tool useful, please consider citing
 ```bibtex
-@article{li2024dance,
-  title={Dance-to-music generation with encoder-based textual inversion of diffusion models},
+@inproceedings{li2024dance,
+  title={Dance-to-Music Generation with Encoder-based Textual Inversion},
   author={Li, Sifei and Dong, Weiming and Zhang, Yuxin and Tang, Fan and Ma, Chongyang and Deussen, Oliver and Lee, Tong-Yee and Xu, Changsheng},
-  journal={arXiv preprint arXiv:2401.17800},
+  booktitle={SIGGRAPH Asia 2024 Conference Papers},
+  pages={1--11},
   year={2024}
 }
 ```
