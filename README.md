@@ -69,7 +69,7 @@ If you found this tool useful, please consider citing
   title={Dance-to-Music Generation with Encoder-based Textual Inversion},
   author={Li, Sifei and Dong, Weiming and Zhang, Yuxin and Tang, Fan and Ma, Chongyang and Deussen, Oliver and Lee, Tong-Yee and Xu, Changsheng},
   booktitle={SIGGRAPH Asia 2024 Conference Papers},
-  pages={1--11},
+  pages={135:1-135:11},
   year={2024}
 }
 ```
